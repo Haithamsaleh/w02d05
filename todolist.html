@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todolist.css">
+    <title>ToDo List</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="input">
+            <input id="todoInput" type="text">
+            <button id="addButton">Add to List</button>
+        </div>
+        <ul class="list">
+            
+        </ul>
+        <div class="status">
+            <p>You have <span id="counter">0</span> todos left.</p>
+        </div>
+        <div class="clearOptions">
+            <button id="clearList">Clear List</button>
+            <button id="clearCompleted">Clear Completed</button>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="todolist.js"></script>
+</body>
+</html>
